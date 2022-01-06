@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+
+}
+h1{
+    font-size: 50px;
+    padding-left: 5px ;
+    border-left: 5px solid;
+    border-color: orangered;
+    border-radius: 5px;
+}
+h2{
+    display: block;
+    padding: 50px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.Mission-2022{
+    color: tomato;
+}
+section{
+    height: 400px;
+    padding: 100px;
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    width: 400;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    background-color: tomato;
+    border-radius: 5px;
+}
+small{
+    display: block;
+    padding-top: 50px;
+}
+.middle-1{
+    display: block;
+}
+.become{
+  margin: 1px solid;
+  padding-left: 5px;
+}
+.flexible{
+    display: flex;
+    width: 22%;
+    height: 50px;
+}
+.middle-class{
+    display: flex;
+    padding: 10px;
+}
+#become{
+    background-color: papayawhip;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#increase{
+    background-color: rosybrown;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#do-something{
+    background-color: oldlace;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
