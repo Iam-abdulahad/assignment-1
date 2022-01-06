@@ -16,12 +16,16 @@ h2{
     text-align: center;
 
 }
+h3{
+    font-size: 30px;
+}
 
-.Mission-2022{
+.mission-2022{
     color: tomato;
 }
 section{
-    height: 400px;
+    display: flex;
+    height: 200px;
     padding: 100px;
     display: flex;
 }
@@ -63,22 +67,69 @@ small{
 .middle-class{
     display: flex;
     padding: 10px;
+    padding-bottom: 100px;
 }
 #become{
     background-color: papayawhip;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 10px;
 }
 #increase{
     background-color: rosybrown;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 10px;
 }
 #do-something{
     background-color: oldlace;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 10px;
+}
+.coding_section{
+    display: flex;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    margin: 10px;
+
+}
+
+.coding{
+    float: left;
+    width: 50%;
+    margin-top: 200px;
+}
+.coding img{
+    width: 65%;
+}
+.community{
+    width: 50%;
+    margin-top: 100px;
+}
+.community img{
+    float: right;
+    width: 65%;
+}
+.about-me{
+    text-align: center;
+}
+.about-me{
+    text-align: center;
+    padding: 100px;
+}
+.about{
+    color: tomato;
+}
+#mission2022{
+    color: white;
+}
+#end{
+    text-align: center;
+    color: white;
+    padding-top: -20px;
+    padding-bottom: 15px;
+}
+footer{
+    background-color: black;
 }
